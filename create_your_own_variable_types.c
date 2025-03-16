@@ -16,12 +16,26 @@ struct Personne
     int etudiant; // Booléen : 1 = etudiant, 0 = non etudiant
 };
 */
-
+/*
 #include "main.h" // Inclusion du .h qui contient les prototypes et structures
 
 int main(int argc, char *argv[])
 {
     struct Coordonnees point; // Création d'une variable "point" de type Coordonnees
 
+    return 0;
+}
+*/
+
+typedef struct Coordonnees Coordonnees;
+struct Coordonnees
+{
+    int x;
+    int y;
+};
+
+int main(int argc, char *argv[])
+{
+    Coordonnees point; // L'ordinateur comprend qu'il s'agit de "struct Coordonnees" grâce au typedef
     return 0;
 }
