@@ -67,7 +67,7 @@ void initialiserCoordonnees(Coordonnees* point)
     (*point).y = 0;
 }
 */
-
+/*
 int main(int argc, char *argv[])
 {
     Coordonnees monPoint;
@@ -78,3 +78,10 @@ int main(int argc, char *argv[])
 
     return 0;
 }
+*/
+
+// typedef enum Volume Volume;
+// enum Volume
+// {
+//     FAIBLE, MOYEN, FORT
+// };
