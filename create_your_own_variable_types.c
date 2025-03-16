@@ -51,7 +51,7 @@ Coordonnees* point = NULL; // équivalent à Coordonnees *point = NULL;
 Coordonnees *point1 = NULL, *point2 = NULL;
 */
 
-
+/*
 int main(int argc, char *argv[])
 {
     Coordonnees monPoint;
@@ -65,4 +65,16 @@ void initialiserCoordonnees(Coordonnees* point)
 {
     (*point).x = 0;
     (*point).y = 0;
+}
+*/
+
+int main(int argc, char *argv[])
+{
+    Coordonnees monPoint;
+    Coordonnees *pointeur = &monPoint;
+
+    monPoint.x = 10; // On travaille sur une variable, on utilise le "point"
+    pointeur->x = 10; // On travaille sur un pointeur, on utilise la flèche
+
+    return 0;
 }
