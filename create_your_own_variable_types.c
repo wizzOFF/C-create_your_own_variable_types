@@ -43,3 +43,5 @@ int main(int argc, char *argv[])
     
     return 0;
 }
+
+Coordonnees point = {0, 0};
