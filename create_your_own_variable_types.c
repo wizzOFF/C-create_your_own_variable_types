@@ -37,5 +37,9 @@ struct Coordonnees
 int main(int argc, char *argv[])
 {
     Coordonnees point; // L'ordinateur comprend qu'il s'agit de "struct Coordonnees" grâce au typedef
+    
+    point.x = 10;
+    point.y = 20;
+    
     return 0;
 }
