@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
     return 0;
 }
 */
-
+/*
 typedef struct Coordonnees Coordonnees;
 struct Coordonnees
 {
@@ -49,3 +49,20 @@ Coordonnees point = {0, 0};
 
 Coordonnees* point = NULL; // équivalent à Coordonnees *point = NULL;
 Coordonnees *point1 = NULL, *point2 = NULL;
+*/
+
+
+int main(int argc, char *argv[])
+{
+    Coordonnees monPoint;
+
+    initialiserCoordonnees(&monPoint);
+
+    return 0;
+}
+
+void initialiserCoordonnees(Coordonnees* point)
+{
+    (*point).x = 0;
+    (*point).y = 0;
+}
